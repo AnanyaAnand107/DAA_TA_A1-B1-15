@@ -1,1 +1,15 @@
 Minimum Path Sum In a Grid
+In a given matrix of size m x n, we need to find the minimum path sum from the top-left corner (0,0) to the bottom-right corner (m-1, n-1).
+We can only move down or right at each step.We cannot move diagonally or up. The sum of the path is the sum of all numbers along the path. We want the smallest sum.
+
+Example :
+matrix : 
+10 08 02
+10 05 100
+01 01 02
+Throgh greedy solution, the path and sum is 10->8->2->100->2 and 122 .
+Through non-greedy solution,  the path and sum is 10->10->1->1->2 and 24 .
+
+Complexity:
+The worst time complexity would be to traverse through all the matrix tiles which is m x n .
+Hence the time complexity would be O(m x n).
