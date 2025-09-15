@@ -9,4 +9,4 @@ subsequences are : [10, 22, 39] or [10, 22, 40]
 Here, in both the cases the length of longest increasing subsequence is 3.
 
 Complexity:
-Since this code has nested loop it gives time complexity of o(n2).
+Since this code has nested loop it gives time complexity of O(n2).
