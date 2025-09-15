@@ -1,1 +1,12 @@
 Longest Divisible Subset
+Given an array of integers we need to find the largest subset such that for every pair (a,b) one number divides the other. In subset, the order of elements does not matter.
+
+Example:
+Let array be [1, 25, 15, 69, 23, 39, 75, 5]
+Here, the longest divisible subset is [1, 5, 15, 75] which is of length 4.
+
+Complexity:
+Sorting the array takes O(n log n).
+Nested loops takes O(n2).
+The subset traversing at the end takes O(n).
+Thus the total time complexity is O(n2). 
