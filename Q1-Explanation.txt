@@ -1,1 +1,12 @@
 Longest Increasing Subsequence using Dynamic Programming
+
+Explanation:
+The Longest Subsequence of an array is such that all elements of a subsequence are in increasing order and are as long as possible. In a subsequence elements can be skipped but they must maintain their order of occurrance.
+
+Example:
+Let an array be [10, 22, 9, 40, 39, 5]
+subsequences are : [10, 22, 39] or [10, 22, 40]
+Here, in both the cases the length of longest increasing subsequence is 3.
+
+Complexity:
+Since this code has nested loop it gives time complexity of o(n2).
